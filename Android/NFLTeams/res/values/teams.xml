@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="teams_array">
+        
+        <item>New England Patriots</item>
+        <item>Miami Dolphins</item>
+        <item>New York Jets</item>
+        <item>Buffalo Bills</item>
+        <item>Baltimore Ravens</item>
+        <item>Cleveland Browns</item>
+        <item>Cincinnati Bengals</item>
+        <item>Pittsburgh Steelers</item>
+        <item>Indianapolis Colts</item>
+        <item>Tennessee Titans</item>
+        <item>Houston Texans</item>
+        <item>Jacksonville Jaguars</item>
+        <item>Denver Broncos</item>
+        <item>Kansas City Cheifs</item>
+        <item>Oakland Raiders</item>
+        <item>San Diego Chargers</item>
+        <item>Philadelphia Eagles</item>
+        <item>Dallas Cowboys</item>
+        <item>Washington Redskins</item>
+        <item>New York Giants</item>
+        <item>Detroit Lions</item>
+        <item>Chicago Bears</item>
+        <item>Green Bay Packers</item>
+        <item>Minnesota Vikings</item>
+        <item>New Orleans Saints</item>
+        <item>Carolina Panthers</item>
+        <item>Atlanta Falcons</item>
+        <item>Tampa Bay Buccaneers</item>
+        <item>Seattle Seahawks</item>
+        <item>San Francisco 49ers</item>
+        <item>Arizona Cardinals</item>
+        <item>St. Louis Rams</item>
+        
+    </string-array>
+    
+</resources>

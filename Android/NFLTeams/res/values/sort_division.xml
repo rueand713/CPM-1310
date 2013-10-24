@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="division_array">
+        
+        <item>All</item>
+        <item>North</item>
+        <item>East</item>
+        <item>South</item>
+        <item>West</item>
+        
+    </string-array>
+    
+</resources>

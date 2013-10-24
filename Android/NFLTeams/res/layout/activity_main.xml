@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instructions"
+        android:textStyle="italic"
+        android:layout_marginBottom="10dip"/>
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip">
+            
+        <TextView
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="@string/division"
+        style="@style/columnTitle"
+        android:layout_marginRight="10dip"/>
+        
+        <TextView
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="@string/conference"
+        style="@style/columnTitle"/>
+            
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip">
+        
+        <Spinner android:id="@+id/spin_division" android:layout_width="0dip"
+            android:layout_weight="0.5"
+        android:layout_height="wrap_content"></Spinner>
+        
+   		<Spinner android:id="@+id/spin_conference" android:layout_width="0dip"
+   		    android:layout_weight="0.5"
+       	android:layout_height="wrap_content"></Spinner>
+        
+    </LinearLayout>
+   
+   <Button android:id="@+id/queryBtn"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/query"
+       />
+   
+    <LinearLayout android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dip">
+    
+    <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/team"
+       style="@style/columnsLongTitle"/>
+    
+    <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/city"
+       style="@style/columnsLongTitle"/>
+    
+    <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/abbr"
+       style="@style/columnsSmallTitle"/>
+    
+    <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/conference_short"
+       style="@style/columnsSmallTitle"/>
+    
+    <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/division_short"
+       style="@style/columnsSmallTitle"/>
+    
+    </LinearLayout>
+   
+   <ListView android:id="@+id/sqlList"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>

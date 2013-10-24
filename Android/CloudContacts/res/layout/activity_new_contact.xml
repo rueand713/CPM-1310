@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView android:layout_width="0dip"
+            android:layout_weight="0.3"
+        android:layout_height="wrap_content"
+        android:text="@string/firstName"/>
+    
+        <EditText android:id="@+id/firstNameEdit"
+        android:layout_width="0dip"
+        android:layout_weight="0.7"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView android:layout_width="0dip"
+        android:layout_weight="0.3"
+        android:layout_height="wrap_content"
+        android:text="@string/lastName"/>
+    
+        <EditText android:id="@+id/lastNameEdit"
+        android:layout_width="0dip"
+        android:layout_weight="0.7"
+        android:layout_height="wrap_content"
+        android:inputType="text"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView android:layout_width="0dip"
+        android:layout_weight="0.3"
+        android:layout_height="wrap_content"
+        android:text="@string/phoneNumber"/>
+    
+       <EditText android:id="@+id/phoneNumberEdit"
+        android:layout_weight="0.7"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:inputType="phone"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView android:layout_width="0dip"
+        android:layout_weight="0.3"
+        android:layout_height="wrap_content"
+        android:text="@string/emailAddress"/>
+    
+       <EditText android:id="@+id/emailAddressEdit"
+        android:layout_weight="0.7"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView android:layout_width="0dip"
+        android:layout_weight="0.3"
+        android:layout_height="wrap_content"
+        android:text="@string/age"/>
+    
+       <EditText android:id="@+id/ageEdit"
+        android:layout_weight="0.7"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView android:layout_width="0dip"
+        android:layout_weight="0.3"
+        android:layout_height="wrap_content"
+        android:text="@string/weight"/>
+    
+        <EditText android:id="@+id/weightEdit"
+        android:layout_weight="0.7"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView android:layout_width="0dip"
+        android:layout_weight="0.3"
+        android:layout_height="wrap_content"
+        android:text="@string/height"/>
+    
+       <EditText android:id="@+id/heightEdit"
+        android:layout_weight="0.7"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView android:layout_width="0dip"
+        android:layout_weight="0.3"
+        android:layout_height="wrap_content"
+        android:text="@string/employed"/>
+    
+       <EditText android:id="@+id/employedEdit"
+        android:layout_weight="0.7"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/employedHint"
+        android:maxLength="5"/>
+    
+    </LinearLayout>
+    
+    <Button android:id="@+id/cancelButton"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="@string/cancelButton"/>
+    
+    <Button android:id="@+id/saveButton"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="@string/saveButton"/>
+    
+    
+</LinearLayout>

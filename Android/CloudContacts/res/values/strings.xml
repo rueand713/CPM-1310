@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cloud Contacts</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_key">kid_VThOQyUAOO</string>
+    <string name="app_secret">c1ec10a1b05e4af9960d6235c804b3a6</string>
+    <string name="master_secret">676d2856a63f4a3b91a4b8c4b4a360d0</string>
+    <string name="instructions">Select a contact to view/modify</string>
+    <string name="blank"></string>
+    <string name="newButton">New</string>
+    <string name="syncButton">Sync</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="age">Age</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="emailAddress">Email Address</string>
+    <string name="employed">Employed</string>
+    <string name="saveButton">Save</string>
+    <string name="cancelButton">Cancel</string>
+    <string name="employedHint">True or False</string>
+    <string name="queryButton">Query</string>
+    
+</resources>
